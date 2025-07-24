@@ -26,10 +26,20 @@
 {
     color: #8987A1;
 }
+.color4
+{
+    color: #E95A08;
+}
 /* shared style */
 .display-flex
 {
     display: flex;
+}
+body 
+{
+    max-width: 71.25rem;
+    /* margin-left: 9.375rem;     */
+    margin: 0 auto;
 }
 /* navbar style */
 div a{
@@ -46,7 +56,35 @@ div a{
 {
     gap: 2rem;
 }
-/* .home-btn
+
+/* main body part */
+
+/* banner section */
+.banner-heading
 {
-    font-weight: ;
-} */
+    font-weight: 43.75rem;
+    font-size: 4rem;
+    width: 35.62rem;
+    height: 11.125rem;
+    margin-bottom: .75rem;
+}
+.banner-class
+{
+    max-width: 35.62rem;
+    height: 18.70rem;
+    margin-top: 10.125rem;
+}
+.b-descrip
+{
+    margin-bottom: none;
+}
+.img-container
+{
+    max-width: 35.62rem;
+    height: 24rem;
+    margin-top: 10.125rem;
+}
+.banner-container
+{
+    align-items: center;
+}
