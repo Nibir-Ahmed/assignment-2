@@ -393,6 +393,10 @@ div ul li{
 /* responsive section */
 @media screen and (max-width:576px)
 {
+    main
+    {
+        margin-left: 80px;
+    }
     body
     {
         /* margin: 0 auto; */
@@ -400,7 +404,7 @@ div ul li{
     }
     .links-container
     {
-        margin-left: 80px;
+        margin-left: 180px;
     }
     .links-c, .inner
     {
@@ -408,13 +412,14 @@ div ul li{
     }
     #nav-bar
     {
-        margin-left: 350px;
+        margin-left: 300px;
     }
-    .plant-heading, .heading-descrip
+    .plant-heading
     {
         width: 100%;
-        
+        transform: translateX(140px); 
     }
+    
     .p-heading
     {
         width: 100%;
@@ -424,8 +429,8 @@ div ul li{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        transform: translateX(150px);
-        margin-top: 2000px;
+        transform: translateX(100px);
+        margin-top: 1800px;
         width: 100%;
         
     }
@@ -433,7 +438,7 @@ div ul li{
     {
         display: flex;
         margin-top: 1300px;
-        margin-left: 150px;
+        margin-left: 70px;
         width: 100%;
         flex-direction: column;
         justify-content: center;
@@ -454,32 +459,42 @@ div ul li{
         margin-left: 10px;
         gap: 40px;
     }
-    .cards-carrier
-    {
-        margin-left: 90px;
-    }
+    
     /* latest deal section */
+    .lastest-deals-content
+    {
+        transform: translateX(150px);
+    }
+    .news-latter-png
+    {
+        width: 680px;
+    }
     .inner-btn2
     {
         font-size: 1rem;
+        transform: translateY(50px);
     }
-    /* .subscribe-form
+    .subscribe-form
     {
-        transform: translateX(-300px) translateY(250px);
-    } */
-    /* .p-heading
+        transform: translateX(-250px) translateY(220px);
+    }
+    .p-heading-res
     {
         font-size: 1rem;
-        transform:translateX(-300px) translateY(250px);
-    } */
+        transform:translateX(-250px) translateY(220px);
+    }
     .footer-container, .footer-links
     {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        margin-left: -100px;
+        margin:0 auto;
+    }
+    .footer-links
+    {
+        display: flex;
+        flex-direction: column;
     }
     
 }
